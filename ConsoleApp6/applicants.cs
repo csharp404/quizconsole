@@ -13,10 +13,10 @@ namespace ConsoleApp6
         public int age { set; get; }
         private int score;
 
-        public Applicants(string na,int age)
+        public Applicants(string name,int age)
         {
-           
-            this.name = na; 
+
+            this.name = name;
             this.age = age;
         }
         public void AddPoint() {

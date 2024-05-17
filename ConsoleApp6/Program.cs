@@ -58,7 +58,7 @@ internal class Program
             #region theFinalResult
             DateTime time1 = DateTime.Now;
             Console.WriteLine($"The quiz ends now at {time1.ToShortTimeString()}");
-            Console.WriteLine($"The total time spent on the Quiz is {time1.Second - time.Second} Seconds...");
+            Console.WriteLine($"The total time spent on the Quiz is {time1 - time} Seconds...");
             Console.WriteLine("Now the result is:");
             Console.WriteLine($"NAME --> {applicant.name}\nAGE --> {applicant.age}\nYOUR SCORE IS : {applicant.getScore()} of {questions.Length} ");
             #endregion

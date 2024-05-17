@@ -7,8 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Include="C:\Users\USER\Desktop\C#\quiz\quiz.cs" Link="quiz.cs" />
-  </ItemGroup>
-
 </Project>
