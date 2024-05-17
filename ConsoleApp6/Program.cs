@@ -3,7 +3,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        aga: {
+        again: {
             #region declareNewApplicant
             int age = 0;
             string name = "";
@@ -66,7 +66,7 @@ internal class Program
         Console.WriteLine("if you want play again press number 1 or 0 to exit :");
         if (int.Parse(Console.ReadLine()) == 1)
         {
-            goto aga;
+            goto again;
         }
          else
         {
